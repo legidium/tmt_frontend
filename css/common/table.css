@@ -1,0 +1,133 @@
+/* Table */
+.tbl {
+    display: table;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tbl__head {
+    display: table-header-group;
+}
+
+.tbl__body {
+    display: table-row-group;
+}
+
+.tbl__footer {
+    display: table-footer-group;
+}
+
+.tbl__row {
+    display: table-row;
+}
+
+.tbl__cell {
+    display: table-cell;
+}
+/* !Table */
+
+/* Table Fixed, mod: tbl_fixed */
+.tbl_fixed {
+    table-layout: fixed;
+    width: 100%;
+}
+/* !Table Fixed, mod: tbl_fixed */
+
+/* Table: Plans */
+.tbl_view_plans {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tbl_view_plans .tbl__cell {
+    background-color: #f7f9f8;
+    border: 1px solid #dae6e9;
+    color: #616161;
+    padding: 10px;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: middle;
+    width: 11%;
+}
+
+.tbl_view_plans .tbl__cell_head {
+    background: #fff;
+    padding-left: 15px;
+    width: 23%;
+}
+
+.tbl_view_plans .tbl__head .tbl__cell {
+    background: #32B567;
+    border: 1px solid #32B567;
+    color: #227a51;
+    padding: 10px 5px;
+    text-align: center;
+    vertical-align: middle;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tbl_view_plans .tbl__head .tbl__cell_active {
+    color: #11333c;
+}
+
+.tbl_view_plans .tbl__head .tbl__cell_head {
+    color: #fff;
+    border-right-color: #5cbf87;
+}
+/* !Table: Plans */
+
+/* Table: Sidebar Plans, mod: tbl_view_sidebar-plans */
+.tbl_view_sidebar-plans {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tbl_view_sidebar-plans .tbl__cell {
+    background-color: #f7f9f8;
+    border: 1px solid #dae6e9;
+    color: #616161;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: middle;
+    width: 11%;
+}
+
+.tbl_view_sidebar-plans .tbl__cell_head {
+    background: #fff;
+    padding-left: 15px;
+    width: 23%;
+}
+
+.tbl_view_sidebar-plans .tbl__head .tbl__cell {
+    background: #f7f9f8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0eaec transparent;
+    color: #a8afb1;
+    overflow: hidden;
+    padding: 10px 5px;
+    text-align: center;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.tbl_view_sidebar-plans .tbl__head .tbl__cell_active {
+    color: #203846;
+}
+
+.tbl_view_sidebar-plans .tbl__head .tbl__cell_head {
+    background: #fff;
+    border-right-color: #e0eaec;
+    color: #969da1;
+
+}
+/* !Table: Sidebar Plans, mod: tbl_view_sidebar-plans */

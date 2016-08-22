@@ -1,0 +1,49 @@
+<div class="timetable-month__container">
+	<div class="timetable-month__header">
+		<div class="tbl tbl_fixed tbl_view_sidebar-plans timetable-month__fixed">
+			<div class="tbl__head">
+				<div class="tbl__row">
+					<div class="tbl__cell tbl__cell_head">Полевые начальники</div>
+					<div class="tbl__cell"
+						 ng-repeat="day in $ctrl.dates track by $index"
+						 ng-class="{'tbl__cell_active' : day == $ctrl.today }"
+						 ng-bind="day | date:'d MMM'">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="timetable-month__body">
+		<div class="tbl tbl_fixed tbl_view_sidebar-plans timetable-month__timetable">
+			<div class="tbl__body">
+				<div class="tbl__row" ng-repeat="item in $ctrl.data track by $index">
+					<div class="tbl__cell tbl__cell_head">
+
+						<div class="owner-info owner-info_size_s owner-info_view_default">
+							<div class="owner-info__title" ng-bind="item.owner.name"></div>
+							<div class="owner-info__activity"
+								 ng-class="$ctrl.statusClass[item.current.status]"
+								 ng-bind="item.current.title">
+							</div>
+						</div>
+
+					</div>
+					<div class="tbl__cell" ng-repeat="(key, activities) in item.timetable track by key">
+
+						<ul class="activities-list activities-list_size_s">
+							<li class="activities-list__item"
+								ng-repeat="activity in activities track by $index"
+								ng-class="$ctrl.statusClass[activity.status]"
+								ng-bind="activity.title"></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+

@@ -1,0 +1,29 @@
+<div class="box box-info auth-license">
+    <form class="form auth-license__form" name="loginForm" role="form" novalidate ng-submit="license.submit()">
+    	<div class="box-header with-border auth-license_header">
+			<h1 class="box-title auth-license_title">Лицензионное соглашение</h1>
+			<div class="box-tools pull-right">
+				<button class="btn btn-box-tool" type="button" ng-click="license.hide()">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+		</div>
+        <div class="box-body auth-license__body">
+			<iframe class="auth-license__embed" frameborder="0" ng-src="{{ license.url }}"></iframe>
+        </div>
+        <div class="box-footer auth-license__footer" ng-if="!license.confirmed">
+			<div class="row">
+				<div class="col col-sm-6 col-md-4 col-sm-push-3 col-md-push-4">
+					<button class="btn btn-primary btn-block btn-lg bg-orange"
+							ng-disabled="license.loading"
+							ng-click="license.confirm()">Принимаю
+					</button>
+
+				</div>
+			</div>
+		</div>
+		<div class="overlay" ng-show="license.loading">
+			<i class="fa fa-refresh fa-spin"></i>
+		</div>
+    </form>
+</div>

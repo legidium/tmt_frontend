@@ -1,0 +1,24 @@
+<div class="box box-success box-solid box_view_progress"
+	 ng-class="{ 'collapsed-box': progress.collapsed }">
+	<div class="box-header with-border">
+		<div class="box-title">Выполнение полевых активностей</div>
+		<div class="box-tools pull-right">
+			<button type="button"
+					class="btn btn-box-tool"
+					ng-disabled="progress.loading"
+					ng-click="progress.refresh()">
+				<i class="fa fa-refresh" ng-class="{ 'fa-spin': progress.loading }"></i>
+			</button>
+			<button type="button"
+					class="btn btn-box-tool"
+					ng-click="progress.collapse()">
+				<i class="fa" ng-class="progress.collapsed ? 'fa-plus' : 'fa-minus'"></i>
+			</button>
+		</div>
+	</div>
+	<div class="box-body" ng-hide="!progress.data">
+		<progress-list model="progress.data"></progress-list>
+		<div class="overlay" ng-hide="!progress.loading"></div>
+	</div>
+</div>
+

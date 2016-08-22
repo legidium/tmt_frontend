@@ -1,0 +1,29 @@
+<div class="dashboard">
+	<div class="dashboard__map" ui-view="map"></div>
+	<div class="dashboard__plans" ui-view="plans" ng-hide="!dashboard.plans.visible"></div>
+	<div class="dashboard__progress" ui-view="progress" ng-hide="!dashboard.progress.visible"></div>
+	<div class="dashboard__alerts" ui-view="alerts" ng-hide="!dashboard.alerts.visible"></div>
+
+	<div class="dashboard__controls" ui-view="controls">
+		<div class="dashboard__buttons">
+			<a ui-sref="app.sidebar" class="btn btn-dashboard btn-menu dashboard__menu">
+				<i class="fa fa-bars"></i> iManage
+			</a>
+			<button type="button" class="btn btn-dashboard btn-round" title="Уведомления"
+					ng-class="{'btn-checked': dashboard.alerts.visible }"
+					ng-click="dashboard.alerts.toggle()">
+				<i class="fa fa-bell-o"></i>
+			</button>
+			<button type="button" class="btn btn-dashboard  btn-round" title="Выполнение"
+					ng-class="{'btn-checked': dashboard.progress.visible }"
+					ng-click="dashboard.progress.toggle()">
+				<i class="fa fa-tasks"></i>
+			</button>
+			<button type="button" class="btn btn-dashboard btn-round" title="Планы"
+					ng-class="{'btn-checked': dashboard.plans.visible }"
+					ng-click="dashboard.plans.toggle()">
+				<i class="fa fa-table"></i>
+			</button>
+		</div>
+	</div>
+</div>

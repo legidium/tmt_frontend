@@ -1,0 +1,17 @@
+<ul class="dashboard-alerts__items" ng-hide="!$ctrl.data">
+	<li class="dashboard-alerts__item" ng-repeat="item in $ctrl.data track by $index">
+		<div class="dashboard-alert" ng-class="item.class">
+			<div class="dashboard-alert__content">
+				<div class="dashboard-alert__header">
+					<i class="dashboard-alert__icon fa" ng-class="item.icon"></i>
+					<div class="dashboard-alert__time" ng-bind="item.created_at | date:'yy.MM.dd'"></div>
+					<div class="dashboard-alert__title" ng-bind="item.title"></div>
+				</div>
+				<div class="dashboard-alert__body">
+					<div class="dashboard-alert__message" ng-bind="item.message"></div>
+					<div class="dashboard-alert__info" ng-bind="item.info"></div>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>

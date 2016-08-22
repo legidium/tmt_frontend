@@ -1,0 +1,49 @@
+/* Activities List */
+.activities-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.activities-list__item {
+    line-height: 1.42;
+    overflow: hidden;
+    position: relative;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.activities-list__item:before {
+    content: ' ';
+    position: absolute;
+    background: #758893;
+    border-radius: 50%;
+    margin-top: -2px;
+    left: 0;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.activities-list__item.is-draft:before { background-color: #758893; }
+.activities-list__item.is-pending:before { background-color: #758893; }
+.activities-list__item.is-rejected:before { background-color: #758893; }
+.activities-list__item.is-accepted:before { background-color: #758893; }
+.activities-list__item.is-running:before { background-color: #EF8100; }
+.activities-list__item.is-finished:before { background-color: #758893; }
+.activities-list__item.is-failed:before { background-color: #E44141; }
+.activities-list__item.is-completed:before { background-color: #24B9AD; }
+
+.activities-list_size_s .activities-list__item {
+    font-size: 13px;
+}
+
+.activities-list_size_m .activities-list__item {
+    font-size: 14px;
+}
+
+.activities-list_size_l .activities-list__item {
+    font-size: 16px;
+}
+/* !Activities List */

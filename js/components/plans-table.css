@@ -1,0 +1,48 @@
+/* plans-table.css */
+.plans-table {
+    display: block;
+}
+
+.plans-table__owner {
+
+}
+
+.plans-table__name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plans-table__current {
+    color: #758893;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*.plans-table__current.is-draft { color: #758893; }
+.plans-table__current.is-pending { color: #758893; }
+.plans-table__current.is-rejected { color: #758893; }
+.plans-table__current.is-accepted { color: #758893; }*/
+.plans-table__current.is-running { color: #ef8100; }
+/*.plans-table__current.is-failed { color: #e44141; }
+.plans-table__current.is-completed { color: #24b9ad; }*/
+
+.plans-table__header {
+    background-color: #32B567;
+}
+
+.plans-table__body {
+    max-height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.plans-table__fixed {
+    height: 42px;
+    overflow: hidden;
+}
+
+.plans-table__timetable {
+    margin-top: -42px;
+}
+/* !plans-table.css */

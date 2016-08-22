@@ -1,0 +1,53 @@
+<div class="plans-table__container">
+	<div class="plans-table__header">
+		<div class="tbl tbl_view_plans plans-table__fixed">
+			<div class="tbl__head">
+				<div class="tbl__row">
+					<div class="tbl__cell tbl__cell_head">План на неделю</div>
+					<div class="tbl__cell"
+						 ng-repeat="day in $ctrl.dates track by $index"
+						 ng-class="{'tbl__cell_active' : day == $ctrl.today }"
+						 ng-bind="day | date:'d MMM'">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="plans-table__body">
+		<div class="tbl tbl_view_plans plans-table__timetable">
+			<div class="tbl__head">
+				<div class="tbl__row">
+					<div class="tbl__cell tbl__cell_head">План на неделю</div>
+					<div class="tbl__cell"
+						 ng-repeat="day in $ctrl.dates track by $index"
+						 ng-class="{'tbl__cell_active' : day == $ctrl.today }"
+						 ng-bind="day | date:'d MMM'">
+					</div>
+				</div>
+			</div>
+			<div class="tbl__body">
+				<div class="tbl__row" ng-repeat="item in $ctrl.data track by $index">
+					<div class="tbl__cell tbl__cell_head">
+						<div class="plans-table__owner">
+							<div class="plans-table__name" ng-bind="item.owner.name"></div>
+							<div class="plans-table__current"
+								 ng-class="$ctrl.statusClass[item.current.status]"
+							     ng-bind="item.current.title">
+							</div>
+						</div>
+					</div>
+					<div class="tbl__cell" ng-repeat="(key, activities) in item.timetable track by key">
+						<ul class="list list_view_activities plans-table__activities">
+							<li class="list__item"
+								ng-repeat="activity in activities track by $index"
+								ng-class="$ctrl.statusClass[activity.status]"
+								ng-bind="activity.title"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

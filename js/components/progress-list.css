@@ -1,0 +1,20 @@
+.progress-list__item {
+    padding: 6px 0;
+}
+
+.progress-list__name {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.progress-list__progress {
+    margin: 0;
+}
+
+.progress-list__bar              { background-color: #758893; }
+.progress-list__bar.is-running   { background-color: #ef8100; }
+.progress-list__bar.is-failed    { background-color: #e44141; }
+.progress-list__bar.is-completed { background-color: #24b9ad; }

@@ -1,0 +1,99 @@
+{
+  "success": 1,
+  "filter": {
+    "date_start": "2016-07-14 8:00",
+    "date_end": "2016-07-14 21:00"
+  },
+  "items": [
+    {
+      "owner": {
+        "id": 1,
+        "name": "Александров А."
+      },
+      "activity": {
+        "id": 2,
+        "status": 4,
+        "title": "тренинг",
+        "date_start": "2016-07-14 5:00",
+        "date_end": "2016-07-14 22:00",
+        "started_at": "2016-07-14 5:30",
+        "finished_at": null
+      }
+    },
+    {
+      "owner": {
+        "id": 2,
+        "name": "Анюков А."
+      },
+      "activity": {
+        "id": 2,
+        "status": 7,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 11:00"
+      }
+    },
+    {
+      "owner": {
+        "id": 3,
+        "name": "Иванов Д."
+      },
+      "activity": {
+        "id": 2,
+        "status": 7,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 7:30"
+      }
+    },
+    {
+      "owner": {
+        "id": 4,
+        "name": "Дмитриев Е."
+      },
+      "activity": {
+        "id": 2,
+        "status": 4,
+        "title": "тренинг",
+        "date_start":  "2016-07-14 5:00",
+        "date_end":    "2016-07-14 21:00",
+        "started_at":  "2016-07-14 5:30",
+        "finished_at": null
+      }
+    },
+    {
+      "owner": {
+        "id": 5,
+        "name": "Александров А."
+      },
+      "activity": {
+        "id": 2,
+        "status": 7,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 11:00"
+      }
+    },
+    {
+      "owner": {
+        "id": 5,
+        "name": "Александров А."
+      },
+      "activity": {
+        "id": 2,
+        "status": 7,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 11:00"
+      }
+    }
+  ]
+}

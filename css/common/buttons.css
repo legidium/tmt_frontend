@@ -1,0 +1,68 @@
+/* Buttons */
+.btn-menu {
+    background: #fff;
+    color: #00aa00;
+    text-align: left;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+}
+
+.btn-menu:active {
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+}
+
+.btn-menu > :first-child {
+    color: #333;
+    width: 24px;
+    text-align: left;
+}
+
+.btn-menu.active.focus,
+.btn-menu.active:focus,
+.btn-menu.focus,
+.btn-menu:active.focus,
+.btn-menu:active:focus,
+.btn-menu:focus,
+.btn-dashboard.active.focus,
+.btn-dashboard.active:focus,
+.btn-dashboard.focus,
+.btn-dashboard:active.focus,
+.btn-dashboard:active:focus,
+.btn-dashboard:focus {
+    outline: none;
+}
+
+.btn-dashboard {
+    background: #fff;
+    margin-right: 5px;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+
+}
+
+.btn-dashboard.btn-checked {
+    background: #32B567;
+    color: #fff;
+}
+
+.btn-dashboard:hover,
+.btn-dashboard:active,
+.btn-dashboard:focus {
+    color: #00aa00;
+}
+
+.btn-dashboard.btn-checked:hover,
+.btn-dashboard.btn-checked:active,
+.btn-dashboard.btn-checked:focus {
+    background: #22a557;
+    color: #fff;
+}
+
+.btn-dashboard:active {
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+}
+
+.btn-round {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+/* !Buttons */

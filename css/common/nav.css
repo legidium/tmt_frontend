@@ -1,0 +1,27 @@
+/* Nav */
+.nav-menu > li {
+    float: none;
+}
+
+.nav-menu > li > a {
+    border-radius: 0;
+    border-top: 0;
+    color: #444;
+}
+
+.nav-menu > li > a > :first-child {
+    width: 20px;
+    text-align: left;
+}
+
+.nav-menu > li.active > a,
+.nav-menu > li.active > a:hover {
+    color: #36B66A;
+}
+
+.has-error .input-group-btn .btn {
+    border-color: #dd4b39;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* !Nav */

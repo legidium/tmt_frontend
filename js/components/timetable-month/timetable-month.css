@@ -1,0 +1,35 @@
+.timetable-month {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.timetable-month__container {
+    position: relative;
+    height: 100%;
+}
+
+.timetable-month__header {
+    background: #f7f9f8;
+    box-shadow: 0 1px 5px rgba(0, 0, 0,.25);
+    height: 38px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.timetable-month__body {
+    overflow: auto;
+    position: absolute;
+    top: 38px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.timetable-month__body .tbl__head {
+    display: none;
+}
+

@@ -1,0 +1,136 @@
+.dashboard-alerts {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.dashboard-alerts__items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-alerts__item {
+    margin-bottom: 10px;
+}
+
+.dashboard-alerts__item:last-child {
+    margin-bottom: 0;
+}
+
+.dashboard-alert {
+    position: relative;
+    padding-left: 50px;
+}
+
+.dashboard-alert__icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #616161;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+    color: #616161;
+}
+
+.dashboard-alert__content {
+    background: #fff;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+    color: #00aa00;
+    min-width: 220px;
+    padding: 10px 15px;
+}
+
+.dashboard-alert__header {
+    margin-bottom: 5px;
+}
+
+.dashboard-alert__title,
+.dashboard-alert__time {
+    color: #102b3b;
+}
+
+.dashboard-alert__title {
+    font-size: 16px;
+}
+
+.dashboard-alert__time {
+    float: right;
+}
+
+.dashboard-alert__body {
+    overflow: hidden;
+}
+
+.dashboard-alert__message,
+.dashboard-alert__info {
+    float: left;
+}
+
+.dashboard-alert__message {
+    color: #616161;
+    margin-right: 5px;
+}
+.dashboard-alert__info {
+    color: #00a000;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.dashboard-alert_type_success .dashboard-alert__icon {
+    border-color: #298c84;
+    background: #24b9ad;
+    color: #8ef9f9;
+}
+.dashboard-alert_type_success .dashboard-alert__content {
+    background: #24b9ad;
+    color: #8ef9f9;
+}
+.dashboard-alert_type_success .dashboard-alert__message {
+    color: #8ef9f9;
+}
+.dashboard-alert_type_success .dashboard-alert__info {
+    color: #fff;
+}
+
+.dashboard-alert_type_warning .dashboard-alert__icon {
+    border-color: #c15200;
+    background: #fc8901;
+    color: #c15200;
+}
+.dashboard-alert_type_warning .dashboard-alert__content {
+    background: #fc8901;
+    color: #c15200;
+}
+.dashboard-alert_type_warning .dashboard-alert__message {
+    color: #c15200;
+}
+.dashboard-alert_type_warning .dashboard-alert__info {
+    color: #fff;
+}
+
+.dashboard-alert_type_danger .dashboard-alert__icon {
+    border-color: #bb3838;
+    background: #e44141;
+    color: #ffc0c0;
+}
+.dashboard-alert_type_danger .dashboard-alert__content {
+    background: #e44141;
+    color: #fff;
+}
+.dashboard-alert_type_danger .dashboard-alert__message {
+    color: #ffc0c0;
+}
+.dashboard-alert_type_danger .dashboard-alert__info {
+    color: #fff;
+}
+

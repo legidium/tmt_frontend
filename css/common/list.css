@@ -1,0 +1,47 @@
+/* List */
+.list {
+
+}
+
+.list__items {
+
+}
+
+.list_view_activities {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_view_activities .list__item {
+    position: relative;
+    padding-left: 10px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list_view_activities .list__item:before {
+    content: ' ';
+    position: absolute;
+    background: #758893;
+    border-radius: 50%;
+    margin-top: -2px;
+    left: 0;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.list_view_activities .list__item.is-draft:before { background-color: #758893; }
+.list_view_activities .list__item.is-pending:before { background-color: #758893; }
+.list_view_activities .list__item.is-rejected:before { background-color: #758893; }
+.list_view_activities .list__item.is-accepted:before { background-color: #758893; }
+.list_view_activities .list__item.is-running:before { background-color: #EF8100; }
+.list_view_activities .list__item.is-finished:before { background-color: #758893; }
+.list_view_activities .list__item.is-failed:before { background-color: #E44141; }
+.list_view_activities .list__item.is-completed:before { background-color: #24B9AD; }
+/* !List */
+
+

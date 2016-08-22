@@ -1,0 +1,22 @@
+<div class="sidebar {{ sidebar.viewClass[$state.current.name] }}"
+	 ng-class="{'sidebar_visible': sidebar.visible}"
+	 ng-click="sidebar.hide($event)">
+	<div class="sidebar__container">
+		<div class="sidebar__header">
+			<div class="sidebar__back" ng-if="$state.current.name != 'app.sidebar'">
+				<a class="sidebar__link" ui-sref="app.sidebar" ui-sref-opts="{ ignoreDsr: true }">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			<div class="sidebar__hide">
+				<a class="sidebar__link" ng-click="sidebar.hide()">
+					<i class="fa fa-angle-double-left"></i>
+				</a>
+			</div>
+			<div class="sidebar__title" ng-bind="sidebar.params.title"></div>
+		</div>
+		<div class="sidebar__body" ui-view>
+			<sidebar-menu></sidebar-menu>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,43 @@
+.owner-info {
+
+}
+
+.owner-info__title {
+
+}
+
+.owner-info__activity {
+
+}
+
+.owner-info.owner-info_size_s {
+    font-size: 13px;
+}
+
+.owner-info.owner-info_size_m {
+    font-size: 14px;
+}
+
+.owner-info.owner-info_size_l {
+    font-size: 16px;
+}
+
+.owner-info_view_default .owner-info__title {
+    color: #102b3b;
+    font-weight: 700;
+}
+
+.owner-info_view_default .owner-info__activity {
+    color: #768993;
+}
+
+.owner-info > .owner-info__activity.is-draft     { color: #758893; }
+.owner-info > .owner-info__activity.is-pending   { color: #758893; }
+.owner-info > .owner-info__activity.is-rejected  { color: #758893; }
+.owner-info > .owner-info__activity.is-accepted  { color: #758893; }
+.owner-info > .owner-info__activity.is-running   { color: #EF8100; }
+.owner-info > .owner-info__activity.is-finished  { color: #758893; }
+.owner-info > .owner-info__activity.is-failed    { color: #E44141; }
+.owner-info > .owner-info__activity.is-completed { color: #24B9AD; }
+
+

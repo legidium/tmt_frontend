@@ -1,0 +1,67 @@
+<div class="box box_view_auth auth-login">
+
+    <div class="box-header auth-login__header">
+        <h3 class="box-title auth-login__title" ng-hide="login.loading">Добро пожаловать</h3>
+        <h3 class="box-title auth-login__title" ng-show="login.loading">
+            <i class="fa fa-refresh fa-spin"></i>&nbsp;&nbsp;Обработка запроса...
+        </h3>
+        <div class="auth-login__descr">Пожалуйста войдите в свой кабинет<br> или зарегистрируйтесь</div>
+    </div>
+
+    <form class="form auth-login__form" name="loginForm" role="form" novalidate ng-submit="login.submit()">
+        <div class="box-body auth-login__body">
+            <div class="form-group auth-login__row" ng-class="{'has-error': login.loginError}">
+                <input type="text" class="form-control" placeholder="Логин" id="login"
+                       ng-model="login.credentials.login"
+                       ng-required="true"
+                       ng-disabled="login.disabled">
+                <span class="help-block">{{login.loginMessage}}</span>
+            </div>
+
+            <div class="form-group auth-login__row" ng-class="{'has-error': login.passwordError}">
+                <div class="input-group" ng-hide="login.isPasswordVisible">
+                    <input type="password" class="form-control" placeholder="Пароль" id="password"
+                           ng-model="login.credentials.password"
+                           ng-required="true"
+                           ng-disabled="login.disabled">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"
+                                ng-click="login.showPassword()"
+                                ng-disabled="login.disabled">
+                            <i class="fa fa-eye-slash"></i>
+                        </button>
+                    </span>
+                </div>
+                <div class="input-group" ng-show="login.isPasswordVisible">
+                    <input type="text" class="form-control" placeholder="Пароль"
+                           ng-model="login.credentials.password"
+                           ng-required="true"
+                           ng-disabled="login.disabled">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default"
+                                ng-click="login.hidePassword()"
+                                ng-disabled="login.disabled">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                    </span>
+                </div>
+                <span class="help-block">{{login.passwordMessage}}</span>
+            </div>
+
+            <div class="form-group auth-login__row">
+                <label class="auth-login__label">
+                    <input type="checkbox" id="remember" ng-model="login.remember" ng-disabled="login.disabled">
+                    Не выходить из системы
+                </label>
+            </div>
+        </div>
+        <div class="box-footer auth-login__footer">
+            <button class="btn btn-primary btn-block btn-lg bg-orange auth-login__button" type="submit"
+                    ng-disabled="login.disabled">Войти
+            </button>
+            <div class="auth-login__links">
+                <a class="auth-login__link" ui-sref="^.password">Забыли пароль?</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,808 @@
+{
+  "success": 1,
+  "filter": {
+    "date_start": "2016-02-01",
+    "date_end": "2016-02-07"
+  },
+  "pagination": {
+    "total_items": 10,
+    "total_pages": 2,
+    "page": 1,
+    "per_page": 5
+  },
+  "items": [
+    {
+      "owner": {
+        "id": 1,
+        "name": "Александров А."
+      },
+      "current": {
+        "id": 2,
+        "status": 4,
+        "title": "тренинг",
+        "date_start": "2016-07-14 5:00",
+        "date_end": "2016-07-14 22:00",
+        "started_at": "2016-07-14 5:30",
+        "finished_at": null
+      },
+      "timetable" : {
+        "2016-07-11": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-12": [
+          {
+            "id": 1,
+            "status": 4,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 3,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 3,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-13": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          }
+        ],
+        "2016-07-14": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-15": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-16": [],
+        "2016-07-17": []
+      }
+    },
+    {
+      "owner": {
+        "id": 2,
+        "name": "Анюков А."
+      },
+      "current": {
+        "id": 2,
+        "status": 6,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 11:00"
+      },
+      "timetable" : {
+        "2016-07-11": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-12": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-13": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-14": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-15": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-16": [],
+        "2016-07-17": []
+      }
+    },
+    {
+      "owner": {
+        "id": 3,
+        "name": "Иванов Д."
+      },
+      "current": {
+        "id": 2,
+        "status": 7,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 7:30"
+      },
+      "timetable" : {
+        "2016-07-11": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-12": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-13": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-14": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-15": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-16": [],
+        "2016-07-17": []
+      }
+    },
+    {
+      "owner": {
+        "id": 4,
+        "name": "Дмитриев Е."
+      },
+      "current": {
+        "id": 2,
+        "status": 4,
+        "title": "тренинг",
+        "date_start":  "2016-07-14 5:00",
+        "date_end":    "2016-07-14 11:00",
+        "started_at":  "2016-07-14 5:30",
+        "finished_at": null
+      },
+      "timetable" : {
+        "2016-07-11": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-12": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-13": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-14": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-15": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-16": [],
+        "2016-07-17": []
+      }
+    },
+    {
+      "owner": {
+        "id": 5,
+        "name": "Александров А."
+      },
+      "current": {
+        "id": 2,
+        "status": 7,
+        "title": "тренинг",
+        "date_start": "2016-02-12 5:00",
+        "date_end": "2016-02-12 12:00",
+        "started_at": "2016-02-12 5:30",
+        "finished_at": "2016-02-12 11:00"
+      },
+      "timetable" : {
+        "2016-07-11": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-12": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-13": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-14": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-15": [
+          {
+            "id": 1,
+            "status": 7,
+            "title": "аудит",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-01 5:30",
+            "finished_at": "2016-02-03"
+          },
+          {
+            "id": 2,
+            "status": 6,
+            "title": "тренинг",
+            "date_start": "2016-02-01",
+            "date_end": "2016-02-01",
+            "started_at": "2016-02-01",
+            "finished_at": null
+          },
+          {
+            "id": 3,
+            "status": 7,
+            "title": "в офисе",
+            "date_start": "2016-02-03",
+            "date_end": "2016-02-03",
+            "started_at": "2016-02-03",
+            "finished_at": "2016-02-03"
+          }
+        ],
+        "2016-07-16": [],
+        "2016-07-17": []
+      }
+    }
+  ]
+}

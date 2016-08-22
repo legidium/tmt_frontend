@@ -1,0 +1,16 @@
+<div class="progress-list__body" ng-if="$ctrl.model">
+	<div class="progress-list__item" ng-repeat="item in $ctrl.model track by $index">
+		<div class="progress-list__name" ng-bind="item.owner.name"></div>
+		<div class="progress progress-list__progress">
+			<div class="progress-bar progress-list__bar"
+				 role="progressbar"
+				 aria-valuenow="{{ item.activity.progress }}"
+				 aria-valuemin="0"
+				 aria-valuemax="100"
+				 style="width: {{ item.activity.progress }}%"
+				 ng-class="$ctrl.statusClass[item.activity.status]">
+			</div>
+		</div>
+	</div>
+</div>
+

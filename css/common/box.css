@@ -1,0 +1,117 @@
+/* Box */
+.box {
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.12),0 5px 10px -3px rgba(0,0,0,.3);
+}
+
+.box > .box-body > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box .overlay>.fa,
+.overlay-wrapper .overlay>.fa {
+    font-size: 20px;
+}
+
+.box.box_view_plans,
+.box.box_view_progress,
+.box.box-solid.box_view_plans,
+.box.box-solid.box_view_progress {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.box.box_view_plans > .box-body,
+.box.box_view_progress > .box-body {
+    background: #fff;
+}
+
+.box.box_view_plans > .box-body {
+    padding: 0;
+}
+
+.box_view_progress {
+    max-height: 50%;
+}
+
+.box_view_progress > .box-header,
+.box_view_progress.box-solid.box-success > .box-header {
+    color: #fff;
+    background-color: #32B567;
+    border-bottom: 0;
+    padding: 10px 15px;
+}
+
+.box_view_progress > .box-header > .box-title {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box_view_progress > .box-body {
+    padding: 0 20px;
+    position: relative;
+    max-height: 270px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.box_view_progress > .box-body:after {
+    content: ' ';
+    padding-top: 10px;
+}
+
+.box_view_auth {
+    background: rgba(0,0,0,0.3);
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.box_view_auth .box-header {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 40px 20px 20px;
+}
+
+.box_view_auth .box-body {
+    padding: 20px;
+}
+
+.box_view_auth .box-footer{
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.box_view_auth .input-group .btn {
+    border-radius: 0;
+}
+
+.box_view_auth .input-group {
+    border: 2px solid transparent;
+}
+
+.box_view_auth .form-group.has-error .input-group {
+    border-color: #FF851B;
+}
+
+.box_view_auth .form-group.has-error .help-block {
+    color: rgba(255,255,255,.75);
+    font-size: 12px;
+}
+
+.box_view_auth .form-group.has-error .form-control {
+    border: 2px solid #FF851B;
+    box-shadow: none;
+}
+
+.box_view_auth .form-group.has-error .input-group .form-control,
+.box_view_auth .form-group.has-error .input-group .btn {
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+/* Box */

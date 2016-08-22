@@ -1,0 +1,62 @@
+.auth-login {
+    font-size: 14px;
+    line-height: 1.42;
+    margin: 0 auto;
+    text-align: left;
+    width: 350px;
+    position: relative;
+}
+
+.auth-login .auth-login__header {
+    padding: 30px 20px 20px;
+    text-align: center;
+}
+
+.auth-login .auth-login__footer {
+    padding: 0 20px 20px;
+}
+
+.auth-login__title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.auth-login__descr {
+    margin-top: 20px;
+}
+
+.auth-login__row {
+    margin: 0 0 20px;
+}
+
+.auth-login__row:last-child {
+    margin-bottom: 0;
+}
+
+.auth-login__links {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+.auth-login__link {
+    color: rgba(255, 255, 255, .85);
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.auth-login__link:hover,
+.auth-login__link:active,
+.auth-login__link:focus {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.auth-login__label {
+    color: rgba(255, 255, 255, .85);
+    font-weight: 400;
+}
+
+.auth-login__button {
+    font-size: 14px;
+}
